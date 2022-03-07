@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+h1,h2,h3,h4,p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform:capitalize;
+}
+
+hr{
+    margin: 1rem 0rem 1rem 0rem;
+}
+body{
+    background-image: url(notebook.png);
+}
+.container{
+    
+    margin: 1rem 10rem 1rem 10rem ;
+    
+    
+}
+.header{
+    padding: 1rem 0rem 1.3rem 0rem;
+    background-image: url(notebook.png);
+   
+}
+.main{
+    padding: 3rem 2rem 3rem 2rem;
+    width: 40rem;
+    float: left;
+    background-color: white;
+    margin: 0rem .7rem 0rem 10rem ;
+    
+}
+.sidebar{
+    background-color: white;
+    width: 17em;
+    float: left;
+    padding: 1rem 1.2rem 1rem 1.2rem;
+    margin-right: 10rem;
+
+}
+#person{
+    border-radius: 5rem;
+    margin-bottom: 1rem;
+}
+.stext{
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+}
+a{
+    text-decoration: none;
+    color: red;
+}
+.sidebar, ul{
+    padding-left: 1.4rem;
+}
+.left-head{
+    padding-top: 2rem;
+}
+.left-para{
+    padding-top: .5rem;
+}
+.fr{ 
+    margin-left: 10rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    
+}
+.clear{
+    clear: both;
+   
+}
+#om{
+    color: red;
+    display: inline;
+}
+.footer{
+    display: inline;
+   
+}
